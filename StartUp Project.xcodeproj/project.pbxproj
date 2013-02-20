@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28854A2016D496DA005EFE51 /* BITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28854A1716D4908A005EFE51 /* BITableViewController.m */; };
+		28854A2216D496E4005EFE51 /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28854A1B16D4908A005EFE51 /* PullRefreshTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		28854A2416D49751005EFE51 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28854A2316D49751005EFE51 /* QuartzCore.framework */; };
+		28854A2716D4A5D3005EFE51 /* BIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28854A2616D4A5D3005EFE51 /* BIDetailViewController.m */; };
 		419F69741671B3EC009A89D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419F69731671B3EC009A89D1 /* ViewController.m */; };
 		419F6A0A1671E2AB009A89D1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F6A081671E2AB009A89D1 /* Icon.png */; };
 		419F6A0B1671E2AB009A89D1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 419F6A091671E2AB009A89D1 /* Icon@2x.png */; };
@@ -40,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28854A1616D4908A005EFE51 /* BITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITableViewController.h; sourceTree = "<group>"; };
+		28854A1716D4908A005EFE51 /* BITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITableViewController.m; sourceTree = "<group>"; };
+		28854A1A16D4908A005EFE51 /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		28854A1B16D4908A005EFE51 /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		28854A2316D49751005EFE51 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28854A2516D4A5D3005EFE51 /* BIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDetailViewController.h; sourceTree = "<group>"; };
+		28854A2616D4A5D3005EFE51 /* BIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDetailViewController.m; sourceTree = "<group>"; };
 		419F69721671B3EC009A89D1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		419F69731671B3EC009A89D1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		419F6A081671E2AB009A89D1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "StartUp Project/Icon.png"; sourceTree = "<group>"; };
@@ -73,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28854A2416D49751005EFE51 /* QuartzCore.framework in Frameworks */,
 				AFA8E2B916B1571A00C4815C /* SystemConfiguration.framework in Frameworks */,
 				AFA8E2B716B1571300C4815C /* MobileCoreServices.framework in Frameworks */,
 				AFA8E2AF16B154F100C4815C /* baas.io.framework in Frameworks */,
@@ -107,6 +119,7 @@
 		AFC7140F164005D4004BD21E = {
 			isa = PBXGroup;
 			children = (
+				28854A2316D49751005EFE51 /* QuartzCore.framework */,
 				419F69ED1671E204009A89D1 /* image */,
 				AFC71424164005D4004BD21E /* StartUp Project */,
 				AFC71448164005D4004BD21E /* StartUp ProjectTests */,
@@ -145,6 +158,12 @@
 				AFC7142E164005D4004BD21E /* AppDelegate.m */,
 				419F69721671B3EC009A89D1 /* ViewController.h */,
 				419F69731671B3EC009A89D1 /* ViewController.m */,
+				28854A1616D4908A005EFE51 /* BITableViewController.h */,
+				28854A1716D4908A005EFE51 /* BITableViewController.m */,
+				28854A2516D4A5D3005EFE51 /* BIDetailViewController.h */,
+				28854A2616D4A5D3005EFE51 /* BIDetailViewController.m */,
+				28854A1A16D4908A005EFE51 /* PullRefreshTableViewController.h */,
+				28854A1B16D4908A005EFE51 /* PullRefreshTableViewController.m */,
 				AFC71425164005D4004BD21E /* Supporting Files */,
 			);
 			path = "StartUp Project";
@@ -297,6 +316,9 @@
 				AFC7142B164005D4004BD21E /* main.m in Sources */,
 				AFC7142F164005D4004BD21E /* AppDelegate.m in Sources */,
 				419F69741671B3EC009A89D1 /* ViewController.m in Sources */,
+				28854A2016D496DA005EFE51 /* BITableViewController.m in Sources */,
+				28854A2216D496E4005EFE51 /* PullRefreshTableViewController.m in Sources */,
+				28854A2716D4A5D3005EFE51 /* BIDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +369,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -375,7 +398,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;

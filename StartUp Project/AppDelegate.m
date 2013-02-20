@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "BITableViewController.h"
 #import <baas.io/Baas.h>
 
 @implementation AppDelegate
@@ -15,11 +16,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //Insert you 'baas.io ID'
-    [Baasio setApplicationInfo:@{baas.io ID} applicationName:@"sandbox"];
+    [Baasio setApplicationInfo:@"choipd" applicationName:@"sandbox"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] init];
+    self.viewController = [[BITableViewController alloc] init];
+    self.viewController.title = @"Top 10";
     
     //self.window.rootViewController = self.viewController;
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:self.viewController];
